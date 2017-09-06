@@ -2,7 +2,7 @@ package rpc
 
 import (
 	"git.apache.org/thrift.git/lib/go/thrift"
-	"utils/retry"
+	"github.com/oscarhealth/thriftgowrap/utils/retry"
 )
 // TransportFactory is an interface for returning a thrift client with opened transport.
 type TransportFactory interface {

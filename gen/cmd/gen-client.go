@@ -12,7 +12,7 @@ import (
 	"strings"
 	"text/template"
 
-	"hioscar/gen"
+	"github.com/oscarhealth/thriftgowrap/gen"
 )
 
 var (
