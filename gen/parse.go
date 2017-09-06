@@ -193,7 +193,7 @@ var (
 )
 
 // parseName converts a thrift base type name into its go equivalent.
-// TODO(mdee, arosenberg) handle enums, optional
+// TODO handle enums, optional
 func (p *Parser) parseName(typeName string) string {
 	if val, ok := primitiveTypes[typeName]; ok {
 		return val
