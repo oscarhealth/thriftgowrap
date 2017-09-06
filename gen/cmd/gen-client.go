@@ -30,7 +30,7 @@ import (
 {{range $import := .Imports}}
 	"{{$import}}"
 {{- end}}
-	"utils/rpc"
+	"github.com/oscarhealth/thriftgowrap/utils/rpc"
 )
 {{range $service := .Services}}
 // {{$service.Name}}RPCClient implements {{$service.Name}} with RPC-specific logic.
